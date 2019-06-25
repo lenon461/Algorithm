@@ -31,13 +31,13 @@ int main(){
         }
     }
 
-    cout << endl;
-    for(int i = 0; i < n; i++){
-        for(int j = 0; j < n; j++){
-            cout << dp[i][j] << " ";
-        }
-        cout << endl;
-    }
+    // cout << endl;
+    // for(int i = 0; i < n; i++){
+    //     for(int j = 0; j < n; j++){
+    //         cout << dp[i][j] << " ";
+    //     }
+    //     cout << endl;
+    // }
     cout << dp[n-1][n-1] << endl;
 }
 
@@ -47,4 +47,4 @@ int main(){
 // 1 2 3 1 0 0
 // 3 1 1 1 1 1
 // 0 0 0 1 1 1
-// 0 0 0 0 0 0
+// 0 0 0 0 1 0
